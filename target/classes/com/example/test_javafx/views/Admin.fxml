@@ -7,11 +7,10 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test_javafx.controllers.AdminController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIGHTSKYBLUE" height="92.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="800.0" />
-      <Button fx:id="ct" alignment="CENTER" layoutX="100.0" layoutY="197.0" mnemonicParsing="false" onAction="#CreatT" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #FABF6E;" text="Create Teacher " textAlignment="CENTER">
+      <Button fx:id="ct" alignment="CENTER" layoutX="94.0" layoutY="162.0" mnemonicParsing="false" onAction="#CreatT" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #A7FA7A;" text="Create Teacher " textAlignment="CENTER">
          <font>
             <Font name="Consolas Bold" size="24.0" />
          </font>
@@ -19,7 +18,7 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
       </Button>
-      <Button fx:id="cc" alignment="CENTER" layoutX="424.0" layoutY="197.0" mnemonicParsing="false" onAction="#CreatC" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #FABF6E;" text="Create Course " textAlignment="CENTER">
+      <Button fx:id="cc" alignment="CENTER" layoutX="418.0" layoutY="162.0" mnemonicParsing="false" onAction="#CreatC" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #A7FA7A;" text="Create Course " textAlignment="CENTER">
          <font>
             <Font name="Consolas Bold" size="24.0" />
          </font>
@@ -27,7 +26,7 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
       </Button>
-      <Button fx:id="et" alignment="CENTER" layoutX="100.0" layoutY="296.0" mnemonicParsing="false" onAction="#EditT" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #FABF6E;" text="Edit Teacher ">
+      <Button fx:id="et" alignment="CENTER" layoutX="94.0" layoutY="261.0" mnemonicParsing="false" onAction="#EditT" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #A7FA7A;" text="Edit Teacher ">
          <font>
             <Font name="Consolas Bold" size="24.0" />
          </font>
@@ -35,7 +34,7 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
       </Button>
-      <Button fx:id="ec" alignment="CENTER" layoutX="424.0" layoutY="296.0" mnemonicParsing="false" onAction="#EdetC" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #FABF6E;" text="Edit Course " textAlignment="CENTER">
+      <Button fx:id="ec" alignment="CENTER" layoutX="418.0" layoutY="261.0" mnemonicParsing="false" onAction="#EdetC" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #A7FA7A;" text="Edit Course " textAlignment="CENTER">
          <font>
             <Font name="Consolas Bold" size="24.0" />
          </font>
@@ -53,7 +52,7 @@
             <Font name="Consolas" size="21.0" />
          </font>
       </Label>
-      <Button fx:id="logout" alignment="CENTER" layoutX="250.0" layoutY="395.0" mnemonicParsing="false" onAction="#logout" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #FABF6E;" text="Logout " textAlignment="CENTER">
+      <Button fx:id="logout" alignment="CENTER" layoutX="244.0" layoutY="360.0" mnemonicParsing="false" onAction="#logout" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #A7FA7A;" text="Logout " textAlignment="CENTER">
          <font>
             <Font name="Consolas Bold" size="24.0" />
          </font>

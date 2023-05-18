@@ -11,15 +11,22 @@ public class AdminController {
     private AnchorPane anchorPane;
     Navigation navigation = new Navigation();
     public void CreatT(ActionEvent actionEvent) {
+        navigation.navigateTo(anchorPane,navigation.CREAT_TEACHER);
     }
 
     public void CreatC(ActionEvent actionEvent) {
+        navigation.navigateTo(anchorPane,navigation.CREAT_COURS);
+
     }
 
     public void EditT(ActionEvent actionEvent) {
+        navigation.navigateTo(anchorPane,navigation.EDIT_TEACHER);
+
     }
 
     public void EdetC(ActionEvent actionEvent) {
+        navigation.navigateTo(anchorPane,navigation.EDIT_COURS);
+
     }
 
     public void adminName(MouseEvent mouseEvent) {

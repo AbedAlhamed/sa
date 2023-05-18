@@ -8,7 +8,7 @@ public class Course {
     private String subject;
     private String textbook;
     private String instructor;
-    private String virtualRoom;
+    private String classRoom;
     private List<Lecture> lectures;
 
     public Course(String courseName, String subject, String textbook, String instructor, String virtualRoom) {
@@ -16,7 +16,7 @@ public class Course {
         this.subject = subject;
         this.textbook = textbook;
         this.instructor = instructor;
-        this.virtualRoom = virtualRoom;
+        this.classRoom = virtualRoom;
         this.lectures = new ArrayList<>();
     }
 
@@ -37,7 +37,7 @@ public class Course {
     }
 
     public String getVirtualRoom() {
-        return virtualRoom;
+        return classRoom;
     }
 
     public List<Lecture> getLectures() {

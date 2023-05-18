@@ -12,14 +12,17 @@
     <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIGHTSKYBLUE" height="508.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" cache="true" fill="WHITE" height="382.0" layoutX="395.0" layoutY="59.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="334.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" cache="true" fill="#fafffc" height="382.0" layoutX="62.0" layoutY="59.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="334.0" />
-        <Button fx:id="login" layoutX="454.0" layoutY="216.0" mnemonicParsing="false" onAction="#login" prefHeight="33.0" prefWidth="94.0" text="login" />
-        <Label layoutX="479.0" layoutY="63.0" text="login " textAlignment="CENTER">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" cache="true" fill="#a7fa7a" height="382.0" layoutX="62.0" layoutY="59.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="334.0" />
+        <Button fx:id="login" layoutX="465.0" layoutY="290.0" mnemonicParsing="false" onAction="#login" prefHeight="46.0" prefWidth="167.0" style="-fx-background-color: A7FA7A;" text="login">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font></Button>
+        <Label layoutX="527.0" layoutY="93.0" text="login " textAlignment="CENTER">
             <font>
                 <Font name="System Bold" size="26.0" />
             </font>
         </Label>
-        <Label layoutX="379.0" layoutY="136.0" text="Ucer Name">
+        <Label layoutX="431.0" layoutY="166.0" text="Ucer Name">
             <font>
                 <Font size="18.0" />
             </font>
@@ -27,7 +30,7 @@
                 <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
             </padding>
         </Label>
-        <Label layoutX="379.0" layoutY="166.0" text="password">
+        <Label layoutX="436.0" layoutY="209.0" text="password">
             <padding>
                 <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
             </padding>
@@ -35,9 +38,8 @@
                 <Font size="17.0" />
             </font>
         </Label>
-        <TextField fx:id="userName" layoutX="505.0" layoutY="136.0" style="-fx-background-color: #000000;" />
-        <TextField fx:id="pass" layoutX="514.0" layoutY="182.0" />
-        <Button fx:id="director" layoutX="454.0" layoutY="256.0" mnemonicParsing="false" onAction="#dirictor" prefHeight="33.0" prefWidth="94.0" text="super" />
-        <Button fx:id="teacher" layoutX="454.0" layoutY="296.0" mnemonicParsing="false" onAction="#te" prefHeight="33.0" prefWidth="94.0" text="teacher" />
+        <TextField fx:id="userName" layoutX="549.0" layoutY="170.0" style="-fx-border-radius: A7FA7A;" />
+        <TextField fx:id="pass" layoutX="549.0" layoutY="213.0" />
+        <Button fx:id="teacher" layoutX="493.0" layoutY="384.0" mnemonicParsing="false" onAction="#te" prefHeight="33.0" prefWidth="94.0" text="teacher" />
     </children>
 </AnchorPane>
